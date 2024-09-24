@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Syngen </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Syngen</h1>
+    </header>
+    <div class="container">
+        <h3> Generated data </h3>
+        {{ table_html | safe }} <br>
+        <form method="post">
+            <input type="submit" name="download" value="Download">
+        </form>
+    </div>
+</body>
+</html>
