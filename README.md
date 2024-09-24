@@ -7,5 +7,4 @@ api_token = 'you_api_token'
 To install dependencies run the following command:
  pip install -r requirements.txt  
 
-Use SynGen:
-
+Use SynGen: https://syngen-g045.onrender.com/
